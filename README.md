@@ -1,2 +1,6 @@
 # lab-money_transfer-console
 C# Console application simulating money transfer between two parties.
+
+This lab assignment was to build a C# console application that simulates a money transfer between 2 parties and displaying balances before and after the transaction for each party.  
+The C# skills demonstrated in this lab are Class creation, object instantiation, writing methods that allow the objects to interact with eachother, using objects within objects, loops guiding the flow of logic throughout, and the passing in of variables and objects into outside methods.
+In addition to lab requirements I added 3 more parties and user interaction with some fun twists.  When the app is run the 5 parties, all with a randomly generated starting balance, make a money transfer of a randomly generated amount of money, between randomly selected partners.  After each transfer the new balances are displayed and the user is prompted to make another transfer or end simulation.  The user can continue as long as they would like while the balances continue to track each transfer.  A Spanish version has also been started but currently unfinished.
