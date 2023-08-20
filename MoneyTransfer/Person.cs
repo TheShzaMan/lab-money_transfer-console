@@ -55,7 +55,7 @@ namespace MoneyTransfer
             else
             {
                 Console.WriteLine($"\n{receiver.name} asks {name} to loan them {amountToTransfer} bucks but\n" +
-                    $"{name} does't have that much money\n!" +
+                    $"{name} doens't have that much money!\n" +
                     $"No money is transferred.    press enter"); Console.ReadLine();
                 return false;
                 //Console.WriteLine($"¡{name} no tiene tanto dinero!");
